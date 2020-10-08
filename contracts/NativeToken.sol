@@ -3,9 +3,9 @@ pragma solidity >=0.4.21 <0.7.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract TutorialToken is ERC20 {
-    string public name = "TutorialToken";
-    string public symbol = "TT";
+contract NativeToken is ERC20 {
+    string public name = "NativeToken";
+    string public symbol = "NT";
     uint256 public decimals = 2;
     uint256 public INITIAL_SUPPLY = 12000;
 
